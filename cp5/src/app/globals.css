@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cabecalho {
+    @apply h-5;
+  }
+
+  .cabecalho li {
+    @apply inline m-5;
+    @apply list-none;
+  }
+
+  .cabecalho li a:hover {
+    @apply bg-slate-500 rounded-sm text-white;
+  }
+}
