@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 
+export const viewport = {
+  initialSacale: 1.0,
+  width:"device-width",
+  colorScheme:'dark',
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
