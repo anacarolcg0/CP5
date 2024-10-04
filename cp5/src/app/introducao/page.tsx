@@ -1,5 +1,5 @@
-import Cabecalho from "../Cabecalho/Cabecalho";
-import Rodape from "../Rodape/Rodape";
+import Cabecalho from "@/components/Cabecalho/Cabecalho"
+import Rodape from "@/components/Rodape/Rodape"
 
 export default function Introducao() {
     return (
